@@ -1,0 +1,121 @@
+Country,Indicator,Model,RMSE,Rank
+Czech Republic,GDP per Capita (USD),XGBoost,7701.443208875542,1
+Czech Republic,GDP per Capita (USD),ARIMA,8556.340667072373,2
+Czech Republic,GDP per Capita (USD),Prophet,37508.0248702776,3
+Czech Republic,GDP (USD),XGBoost,84589298803.38364,1
+Czech Republic,GDP (USD),ARIMA,93412136501.19775,2
+Czech Republic,GDP (USD),Prophet,400365722227.00104,3
+Czech Republic,Inflation (CPI),XGBoost,6.902356302979511,1
+Czech Republic,Inflation (CPI),ARIMA,8.412314775378146,2
+Czech Republic,Inflation (CPI),Prophet,15.314199017329813,3
+Czech Republic,Unemployment Rate (%),Prophet,0.8028160917854466,1
+Czech Republic,Unemployment Rate (%),XGBoost,1.5101685113397716,2
+Czech Republic,Unemployment Rate (%),ARIMA,1.5653106518878626,3
+Czech Republic,GDP growth (annual %),ARIMA,3.208133428241989,1
+Czech Republic,GDP growth (annual %),XGBoost,3.3641153667710415,2
+Czech Republic,GDP growth (annual %),Prophet,3.9270872533085277,3
+Hungary,GDP per Capita (USD),XGBoost,3167.6048265517484,1
+Hungary,GDP per Capita (USD),ARIMA,5513.232288954045,2
+Hungary,GDP per Capita (USD),Prophet,14635.855923932799,3
+Hungary,GDP (USD),XGBoost,28207775452.66782,1
+Hungary,GDP (USD),ARIMA,52032426987.78092,2
+Hungary,GDP (USD),Prophet,141421031565.4722,3
+Hungary,Inflation (CPI),ARIMA,5.586765891034516,1
+Hungary,Inflation (CPI),XGBoost,5.655608670708757,2
+Hungary,Inflation (CPI),Prophet,10.561264890748772,3
+Hungary,Unemployment Rate (%),XGBoost,1.2520974238862816,1
+Hungary,Unemployment Rate (%),ARIMA,1.4164863365629334,2
+Hungary,Unemployment Rate (%),Prophet,4.893958810655683,3
+Hungary,GDP growth (annual %),Prophet,3.088450827198912,1
+Hungary,GDP growth (annual %),XGBoost,3.404329774510292,2
+Hungary,GDP growth (annual %),ARIMA,4.129105117192687,3
+Poland,GDP per Capita (USD),XGBoost,5447.998540128595,1
+Poland,GDP per Capita (USD),ARIMA,6046.934746345739,2
+Poland,GDP per Capita (USD),Prophet,25264.20240728398,3
+Poland,GDP (USD),XGBoost,193103718630.22955,1
+Poland,GDP (USD),ARIMA,214815905463.58463,2
+Poland,GDP (USD),Prophet,945987809347.0004,3
+Poland,Inflation (CPI),ARIMA,4.734570868939323,1
+Poland,Inflation (CPI),XGBoost,4.741935561467827,2
+Poland,Inflation (CPI),Prophet,38.51920456506009,3
+Poland,Unemployment Rate (%),XGBoost,2.8043847314276946,1
+Poland,Unemployment Rate (%),ARIMA,3.6302794724019596,2
+Poland,Unemployment Rate (%),Prophet,15.33584753374537,3
+Poland,GDP growth (annual %),Prophet,3.016093633208367,1
+Poland,GDP growth (annual %),ARIMA,3.0502639081853706,2
+Poland,GDP growth (annual %),XGBoost,3.1936401410886726,3
+Slovakia,GDP per Capita (USD),XGBoost,4489.024270923776,1
+Slovakia,GDP per Capita (USD),ARIMA,4781.234873773458,2
+Slovakia,GDP per Capita (USD),Prophet,31686.838594174544,3
+Slovakia,GDP (USD),XGBoost,24551129375.375534,1
+Slovakia,GDP (USD),ARIMA,25751842031.931496,2
+Slovakia,GDP (USD),Prophet,172629552334.00125,3
+Slovakia,Inflation (CPI),ARIMA,6.0952224756523865,1
+Slovakia,Inflation (CPI),XGBoost,6.979531430535943,2
+Slovakia,Inflation (CPI),Prophet,19.925614708870214,3
+Slovakia,Unemployment Rate (%),ARIMA,3.14863895090446,1
+Slovakia,Unemployment Rate (%),XGBoost,3.192783288988689,2
+Slovakia,Unemployment Rate (%),Prophet,7.451537491168623,3
+Slovakia,GDP growth (annual %),XGBoost,2.473806071185097,1
+Slovakia,GDP growth (annual %),ARIMA,2.4923022666747254,2
+Slovakia,GDP growth (annual %),Prophet,7.146150129841003,3
+Germany,GDP per Capita (USD),ARIMA,4723.120768115666,1
+Germany,GDP per Capita (USD),XGBoost,6173.4105114242475,2
+Germany,GDP per Capita (USD),Prophet,37232.49128698683,3
+Germany,GDP (USD),ARIMA,428362119036.781,1
+Germany,GDP (USD),XGBoost,539267477624.06586,2
+Germany,GDP (USD),Prophet,3101611314755.0146,3
+Germany,Inflation (CPI),ARIMA,2.0148284308277318,1
+Germany,Inflation (CPI),Prophet,2.207614381005654,2
+Germany,Inflation (CPI),XGBoost,2.2339729565094975,3
+Germany,Unemployment Rate (%),XGBoost,0.7436840168760983,1
+Germany,Unemployment Rate (%),ARIMA,0.7532164809024764,2
+Germany,Unemployment Rate (%),Prophet,6.032577828681717,3
+Germany,GDP growth (annual %),ARIMA,1.967015414978528,1
+Germany,GDP growth (annual %),Prophet,3.405941301558828,2
+Germany,GDP growth (annual %),XGBoost,3.4848441556939194,3
+Austria,GDP per Capita (USD),ARIMA,3664.258079546159,1
+Austria,GDP per Capita (USD),XGBoost,4592.495875689203,2
+Austria,GDP per Capita (USD),Prophet,40585.26442924565,3
+Austria,GDP (USD),ARIMA,45738207185.07809,1
+Austria,GDP (USD),XGBoost,58719070756.44854,2
+Austria,GDP (USD),Prophet,365659444778.0743,3
+Austria,Inflation (CPI),ARIMA,2.564825914410634,1
+Austria,Inflation (CPI),XGBoost,2.5873145135339226,2
+Austria,Inflation (CPI),Prophet,3.0236438528961704,3
+Austria,Unemployment Rate (%),ARIMA,0.7101667239398245,1
+Austria,Unemployment Rate (%),XGBoost,0.9614151245780311,2
+Austria,Unemployment Rate (%),Prophet,2.2116104010149247,3
+Austria,GDP growth (annual %),XGBoost,2.8238885390817723,1
+Austria,GDP growth (annual %),ARIMA,3.0038998851538334,2
+Austria,GDP growth (annual %),Prophet,4.022553727493268,3
+France,GDP per Capita (USD),XGBoost,2512.8245651729967,1
+France,GDP per Capita (USD),ARIMA,2723.69770424819,2
+France,GDP per Capita (USD),Prophet,30692.20703489365,3
+France,GDP (USD),ARIMA,191717793209.7431,1
+France,GDP (USD),XGBoost,199254575332.74545,2
+France,GDP (USD),Prophet,2155820371265.2,3
+France,Inflation (CPI),XGBoost,1.582136674996908,1
+France,Inflation (CPI),ARIMA,1.5898781160745508,2
+France,Inflation (CPI),Prophet,4.44332027114704,3
+France,Unemployment Rate (%),XGBoost,2.0047383941332657,1
+France,Unemployment Rate (%),ARIMA,2.1123038533874468,2
+France,Unemployment Rate (%),Prophet,3.8878261722049103,3
+France,GDP growth (annual %),ARIMA,2.9987517677039697,1
+France,GDP growth (annual %),XGBoost,3.0721444036113805,2
+France,GDP growth (annual %),Prophet,4.061983838925008,3
+Italy,GDP per Capita (USD),XGBoost,2960.2211212683696,1
+Italy,GDP per Capita (USD),ARIMA,3809.0647241548677,2
+Italy,GDP per Capita (USD),Prophet,26324.60208304497,3
+Italy,GDP (USD),XGBoost,156230777111.8777,1
+Italy,GDP (USD),ARIMA,214244562345.09796,2
+Italy,GDP (USD),Prophet,1596857990242.6106,3
+Italy,Inflation (CPI),ARIMA,2.3946167278314645,1
+Italy,Inflation (CPI),XGBoost,2.414186503633727,2
+Italy,Inflation (CPI),Prophet,6.249433125830661,3
+Italy,Unemployment Rate (%),ARIMA,1.0056906161965742,1
+Italy,Unemployment Rate (%),Prophet,1.6308391481254279,2
+Italy,Unemployment Rate (%),XGBoost,2.5395416815858343,3
+Italy,GDP growth (annual %),XGBoost,4.033547367546616,1
+Italy,GDP growth (annual %),ARIMA,4.153356106782987,2
+Italy,GDP growth (annual %),Prophet,5.753141499240797,3

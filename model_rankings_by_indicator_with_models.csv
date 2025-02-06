@@ -1,0 +1,16 @@
+Indicator,Model,1,2,3
+GDP (USD),ARIMA,3,5,0
+GDP (USD),Prophet,0,0,8
+GDP (USD),XGBoost,5,3,0
+GDP growth (annual %),ARIMA,3,4,1
+GDP growth (annual %),Prophet,2,1,5
+GDP growth (annual %),XGBoost,3,3,2
+GDP per Capita (USD),ARIMA,2,6,0
+GDP per Capita (USD),Prophet,0,0,8
+GDP per Capita (USD),XGBoost,6,2,0
+Inflation (CPI),ARIMA,6,2,0
+Inflation (CPI),Prophet,0,1,7
+Inflation (CPI),XGBoost,2,5,1
+Unemployment Rate (%),ARIMA,3,4,1
+Unemployment Rate (%),Prophet,1,1,6
+Unemployment Rate (%),XGBoost,4,3,1

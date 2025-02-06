@@ -17,7 +17,9 @@ os.makedirs(image_folder, exist_ok=True)
 
 # Iterate over country and indicator combinations
 for country, country_code in country_names.items():
-    for indicator, indicator_code in indicators.items():
+    fig, axes = plt.subplots(len(indicators), 1, figsize=(10, 5 * len(indicators)))
+    
+    for i, (indicator, indicator_code) in enumerate(indicators.items()):
         # Create the expected filename format
         filename = f"{country.replace(' ', '_')}_{indicator.replace(' ', '_')}.parquet"
         filepath = os.path.join(data_folder, filename)
@@ -27,10 +29,10 @@ for country, country_code in country_names.items():
             df = pd.read_parquet(filepath)
             
             # Ensure the DataFrame has a date column
-            if 'Value' in df.columns:
+            if 'Year' in df.columns and 'Value' in df.columns:
                 df = df.set_index('Year')
                 
-                # Plot the data
+                # Plot individual image
                 plt.figure(figsize=(10, 5))
                 plt.plot(df['Value'], marker='o', linestyle='-')
                 plt.xlabel("Date")
@@ -39,9 +41,22 @@ for country, country_code in country_names.items():
                 plt.xticks(rotation=45)
                 plt.grid()
                 
-                # Save the figure
+                # Save individual figure
                 image_path = os.path.join(image_folder, f"{country.replace(' ', '_')}_{indicator.replace(' ', '_')}.png")
                 plt.savefig(image_path)
                 plt.close()
-                
                 print(f"Saved: {image_path}")
+                
+                # Add to combined figure
+                axes[i].plot(df['Value'], marker='o', linestyle='-')
+                axes[i].set_xlabel("Date")
+                axes[i].set_ylabel(indicator)
+                axes[i].set_title(f"{indicator} in {country}")
+                axes[i].grid()
+    
+    # Save the combined image for the country
+    combined_image_path = os.path.join(image_folder, f"{country.replace(' ', '_')}_all_indicators.png")
+    plt.tight_layout()
+    plt.savefig(combined_image_path)
+    plt.close()
+    print(f"Saved: {combined_image_path}")
