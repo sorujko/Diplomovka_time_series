@@ -1,4 +1,6 @@
-Model,1,2,3
-ARIMA,45,11,0
-Prophet,10,26,20
-XGBoost,1,19,36
+Model,1,2,3,4,5
+ARIMA,20,22,11,3,0
+Holt-Winters,3,11,15,25,2
+LSTM,17,9,8,11,11
+Prophet,5,10,14,11,16
+XGBoost,11,4,8,6,27

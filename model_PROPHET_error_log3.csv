@@ -1,0 +1,57 @@
+Country,Indicator,Model,RMSE,Rank
+Czech Republic,GDP per Capita (USD),Prophet,1873.097347315085,1
+Czech Republic,GDP (USD),Prophet,20276935586.3684,1
+Czech Republic,Inflation (CPI),Prophet,7.240194106048771,1
+Czech Republic,Unemployment Rate (%),Prophet,1.2349489154912934,1
+Czech Republic,GDP growth (annual %),Prophet,4.762871493698515,1
+Czech Republic,Imports of goods and services (% of GDP),Prophet,10.944007963175002,1
+Czech Republic,Exports of goods and services (% of GDP),Prophet,12.626463561964135,1
+Hungary,GDP per Capita (USD),Prophet,1863.6237060986334,1
+Hungary,GDP (USD),Prophet,17401615858.20816,1
+Hungary,Inflation (CPI),Prophet,6.256025387490796,1
+Hungary,Unemployment Rate (%),Prophet,3.607981724770492,1
+Hungary,GDP growth (annual %),Prophet,3.0996429155100556,1
+Hungary,Imports of goods and services (% of GDP),Prophet,6.19777738872639,1
+Hungary,Exports of goods and services (% of GDP),Prophet,7.6469259589780805,1
+Poland,GDP per Capita (USD),Prophet,1469.0555123662314,1
+Poland,GDP (USD),Prophet,44038645417.23749,1
+Poland,Inflation (CPI),Prophet,4.742014365499331,1
+Poland,Unemployment Rate (%),Prophet,1.6811855950578665,1
+Poland,GDP growth (annual %),Prophet,3.4677120473731207,1
+Poland,Imports of goods and services (% of GDP),Prophet,3.147905078676748,1
+Poland,Exports of goods and services (% of GDP),Prophet,1.9837148745683044,1
+Slovakia,GDP per Capita (USD),Prophet,2719.8625328003263,1
+Slovakia,GDP (USD),Prophet,14500735282.517584,1
+Slovakia,Inflation (CPI),Prophet,6.198652584185171,1
+Slovakia,Unemployment Rate (%),Prophet,2.237872066505309,1
+Slovakia,GDP growth (annual %),Prophet,3.247851356030005,1
+Slovakia,Imports of goods and services (% of GDP),Prophet,12.62921455914996,1
+Slovakia,Exports of goods and services (% of GDP),Prophet,13.059344993259453,1
+Germany,GDP per Capita (USD),Prophet,2534.3327924632245,1
+Germany,GDP (USD),Prophet,184713758150.25165,1
+Germany,Inflation (CPI),Prophet,2.1340214937915767,1
+Germany,Unemployment Rate (%),Prophet,0.4557209263542766,1
+Germany,GDP growth (annual %),Prophet,1.8732346725028592,1
+Germany,Imports of goods and services (% of GDP),Prophet,3.0995827501155726,1
+Germany,Exports of goods and services (% of GDP),Prophet,2.898433937524001,1
+Austria,GDP per Capita (USD),Prophet,3233.0635014880622,1
+Austria,GDP (USD),Prophet,30521781308.269356,1
+Austria,Inflation (CPI),Prophet,2.4246933743813472,1
+Austria,Unemployment Rate (%),Prophet,0.7010922341573782,1
+Austria,GDP growth (annual %),Prophet,2.884542847237469,1
+Austria,Imports of goods and services (% of GDP),Prophet,5.46876598782784,1
+Austria,Exports of goods and services (% of GDP),Prophet,3.5056901313629623,1
+France,GDP per Capita (USD),Prophet,5695.423622093819,1
+France,GDP (USD),Prophet,228611558627.03455,1
+France,Inflation (CPI),Prophet,1.671740857682126,1
+France,Unemployment Rate (%),Prophet,0.6924363429921807,1
+France,GDP growth (annual %),Prophet,3.042718069385556,1
+France,Imports of goods and services (% of GDP),Prophet,1.9296196388312477,1
+France,Exports of goods and services (% of GDP),Prophet,1.8000903565705815,1
+Italy,GDP per Capita (USD),Prophet,8196.405215092649,1
+Italy,GDP (USD),Prophet,425780679749.7298,1
+Italy,Inflation (CPI),Prophet,2.5992664573891266,1
+Italy,Unemployment Rate (%),Prophet,1.1739752027713746,1
+Italy,GDP growth (annual %),Prophet,4.412793020469577,1
+Italy,Imports of goods and services (% of GDP),Prophet,3.3826721945207803,1
+Italy,Exports of goods and services (% of GDP),Prophet,1.744676231321471,1
