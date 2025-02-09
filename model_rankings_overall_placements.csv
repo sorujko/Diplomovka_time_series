@@ -1,6 +1,6 @@
 Model,1,2,3,4,5
-ARIMA,28,18,10,0,0
-Holt-Winters,2,19,20,10,5
-LSTM,1,3,7,15,30
-Prophet,10,10,10,18,8
-XGBoost,15,6,9,13,13
+ARIMA,25,24,7,0,0
+Holt-Winters,3,16,26,6,5
+LSTM,1,2,10,19,24
+Prophet,12,9,8,15,12
+XGBoost,15,5,5,16,15
