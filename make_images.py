@@ -11,7 +11,7 @@ with open("indicators.json", "r") as f:
     indicators = json.load(f)
 
 # Data folder path
-data_folder = "data"
+data_folder = "data/base"
 base_image_folder = "images/plot"
 
 # Create main subfolders

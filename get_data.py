@@ -15,7 +15,7 @@ base_url = "http://api.worldbank.org/v2/country/{country_code}/indicator/{indica
 params = {"format": "json", "per_page": 10000}
 
 # Folder to store parquet files
-output_folder = "data"
+output_folder = "data/base"
 os.makedirs(output_folder, exist_ok=True)
 
 # Fetch and save data

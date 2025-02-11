@@ -24,7 +24,9 @@ Run `get_data.py` to fetch data from the World Bank API:
 python get_data.py
 ```
 This script retrieves and stores relevant economic indicators for selected countries.
-
+#### Data folder
+- base subfolder for parquet storage
+- other folders contain development dataset for comparisons (for each model one ipynb)
 ### Visualization
 Run `make_images.py` to generate graphs for all indicator-country combinations:
 ```bash
@@ -37,6 +39,10 @@ Open `model_training.ipynb` in Jupyter Notebook and execute the cells to:
 - Train multiple machine learning models
 - Perform model selection based on evaluation metrics
 - Visualize the best-performing models
+
+Open `models_ipynb` folder:
+- Devolepment notebooks for each model and whole workflow
+
 
 ## Images
 
