@@ -1,6 +1,6 @@
 [
-    "rolling_mean",
+    "rolling_mean_2",
+    "rolling_max_2",
     "expanding_mean",
-    "lag_1",
-    "lag_2"
+    "lag_1"
 ]
