@@ -1,0 +1,6 @@
+[
+    "rolling_max",
+    "rolling_min",
+    "expanding_mean",
+    "lag_2"
+]

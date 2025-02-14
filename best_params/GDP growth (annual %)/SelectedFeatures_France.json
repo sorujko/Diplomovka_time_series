@@ -1,0 +1,6 @@
+[
+    "rolling_mean",
+    "rolling_min",
+    "expanding_mean",
+    "expanding_std"
+]
