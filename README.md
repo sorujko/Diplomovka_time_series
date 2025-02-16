@@ -16,7 +16,6 @@ A brief description of your project, its purpose, and what it does.
 This project gathers economic and financial data from the World Bank API, visualizes key indicators across different countries, and trains machine learning models to analyze trends and make predictions.
 
 
-
 ## Usage
 ### Data Collection
 Run `get_data.py` to fetch data from the World Bank API:
