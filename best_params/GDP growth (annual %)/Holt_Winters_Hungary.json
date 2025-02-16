@@ -2,6 +2,6 @@
     "trend": "add",
     "damped_trend": true,
     "smoothing_level": 0.9,
-    "smoothing_slope": 0.3,
+    "smoothing_slope": 0.4,
     "initialization_method": null
 }

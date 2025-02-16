@@ -1,7 +1,7 @@
 {
-    "trend": "mul",
+    "trend": "add",
     "damped_trend": false,
-    "smoothing_level": 0.7,
+    "smoothing_level": 0.8,
     "smoothing_slope": 0.9,
     "initialization_method": null
 }
