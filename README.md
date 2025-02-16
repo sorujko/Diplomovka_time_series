@@ -1,57 +1,38 @@
-# Project Title
+# Time Series Forecasting Project
 
-A brief description of your project, its purpose, and what it does.
+This project focuses on forecasting time series data for various indicators across countries. We use different machine learning models such as Prophet, XGBoost, LSTM, ARIMA, and Exponential Smoothing to train on the data. The project organizes the components in several files and folders for better workflow management.
 
-## Table of Contents
-- [Usage](#usage)
-  - [Data Collection](#data-collection)
-  - [Visualization](#visualization)
-  - [Model Training](#model-training)
+## Project Structure
 
-- [Images](#images)
-  - [Plot graph](#plot)
-  - [Prediction plot graphs](#model_plot)
+### 1. **`models.ipynb`**  
+This is the main file where we load the best parameters for each model, apply those parameters to the datasets, and create final dataframes with aggregated results. The resulting dataframes are stored in the `data` folder.
 
-## Overview
-This project gathers economic and financial data from the World Bank API, visualizes key indicators across different countries, and trains machine learning models to analyze trends and make predictions.
+### 2. **`get_data.py`**  
+A Python script responsible for gathering and preparing the input data for each indicator-country combination. This script creates the dataset in a format suitable for training the models.
 
+### 3. **`model_ipynb` Folder**  
+This folder contains Jupyter notebooks for training individual models on the data. For now, the folder includes the following models:
+   - **Prophet**
+   - **XGBoost**
+   - **LSTM**
+   - **Exponential Smoothing**
+   - **ARIMA**  
 
-## Usage
-### Data Collection
-Run `get_data.py` to fetch data from the World Bank API:
-```bash
-python get_data.py
-```
-This script retrieves and stores relevant economic indicators for selected countries.
-#### Data folder
-- base subfolder for parquet storage
-- other folders contain development dataset for comparisons (for each model one ipynb)
-### Visualization
-Run `make_images.py` to generate graphs for all indicator-country combinations:
-```bash
-python make_images.py
-```
-The script produces visualizations that help in understanding trends and correlations.
+Each model is trained and evaluated in separate notebooks within this folder.
 
-### Model Training
-Open `model_training.ipynb` in Jupyter Notebook and execute the cells to:
-- Train multiple machine learning models
-- Perform model selection based on evaluation metrics
-- Visualize the best-performing models
+### 4. **`make_images` Folder**  
+This folder contains scripts for generating basic visualizations from the data. Visualizations include plots like the time series data, model predictions, and error rates across different models.
 
-Open `models_ipynb` folder:
-- Devolepment notebooks for each model and whole workflow
+### 5. **`best_params` Folder**  
+This folder holds JSON files containing the best parameters for each of the models. Each parameter set is specific to the combination of country and indicator being forecasted.
 
+### 6. **`data` Folder**  
+The `data` folder contains:
+   - **Input data**: Raw time series data for various indicators and countries.
+   - **Output dataframes**: DataFrames containing the final aggregated results after model predictions are made. These dataframes are the results of training and testing the models on the datasets.
 
-## Images
-
-### Plot graph
-- Whole dataset in plot graph
-
-### Prediction plot graphs
-- Plot graphs of predicted vs actual values
-
-
+### 7. **`images` Folder**  
+This folder contains all of the visualizations generated from the data. These include model performance, error metrics, and prediction visuals.
 
 
 ## Dependencies
