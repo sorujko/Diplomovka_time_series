@@ -136,7 +136,7 @@ for country, country_code in country_names.items():
 
 
     # Save the combined image for the country
-    combined_image_path = os.path.join(country_folder, f"Seasonality_All_Indicators_{country.replace(' ', '_')}.png")
+    combined_image_path = os.path.join(country_folder, f"Seasonality_{country.replace(' ', '_')}_all_indicators.png")
     plt.tight_layout()
     plt.savefig(combined_image_path)
     plt.close()
